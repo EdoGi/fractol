@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fract_render.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: egiacomi <egiacomi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edogi <edogi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/03 22:11:58 by egiacomi          #+#    #+#             */
-/*   Updated: 2022/02/11 23:55:40 by egiacomi         ###   ########.fr       */
+/*   Updated: 2023/02/07 23:58:57 by edogi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	mandelbrot_count(int count_w, int count_h, int iter, t_fract fract)
 		x_new = pow(z.re, 2.0) - pow(z.im, 2.0) + fract.param.re;
 		z.im = 2 * z.re * z.im + fract.param.im;
 		z.re = x_new;
-		put_buddha(&fract, z.re, z.im);
+		// put_buddha(&fract, z.re, z.im);
 		iter++;
 	}
 	return (iter);

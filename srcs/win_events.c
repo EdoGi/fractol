@@ -57,6 +57,7 @@ int	mouse_handler(int button, int x, int y, t_data *data)
 {
 	double	ratio;
 
+	(void)ratio;
 	ratio = 0.1;
 	(void)y;
 	(void)x;
