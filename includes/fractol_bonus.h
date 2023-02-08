@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fractol_bonus.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: egiacomi <egiacomi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edogi <edogi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/31 23:22:39 by egiacomi          #+#    #+#             */
-/*   Updated: 2022/02/10 19:45:58 by egiacomi         ###   ########.fr       */
+/*   Updated: 2023/02/08 00:18:29 by edogi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@
 # include <X11/keysym.h>
 # include <X11/X.h>
 
-# define WIN_W 250
-# define WIN_H 250
+# define WIN_W 500
+# define WIN_H 500
 
 # define TRUE 1
 # define FALSE 0

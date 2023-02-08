@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fract_parsing.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: egiacomi <egiacomi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edogi <edogi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/04 17:50:12 by egiacomi          #+#    #+#             */
-/*   Updated: 2022/02/10 19:20:33 by egiacomi         ###   ########.fr       */
+/*   Updated: 2023/02/08 00:24:08 by edogi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,10 @@ void	help_user(t_data *data)
 	ft_putstr_fd("\n\tExamples :\n\t./Blow_Your_Mind M B", 1);
 	ft_putstr_fd("\n\t./Blow_Your_Mind J R -1.0 0.75\n", 1);
 	ft_putstr_fd("\n\tINVALID JULIA'S PARAMETER WILL BE CONSIDERED AS 0 !\n", 1);
+	ft_putstr_fd("\n\nGuide to Use the Program :\n", 1);
+	ft_putstr_fd(" - Use 'WASD' keys to move\n - Use 'I' and 'O' keys to zoom in and out\n", 1);
+	ft_putstr_fd(" - Press 'C' to change color\n - Press 'R' to reset position\n", 1);
+	ft_putstr_fd(" - Press 'Esc' to exit the program\n\n", 1);
 	if (data)
 	{
 		free(data);
